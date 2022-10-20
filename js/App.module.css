@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --pink-background: #F9E5DB;
+  --purple-background: #9C90AC;
+  --light-element: #6867AC;
+  --dark-element: #4D4C7D;
+
+  --first-gradient: #FDBAD0;
+  --second-gradient: #F5B3CD;
+  --third-gradient: #EDACCA;
+  --fourth-gradient: #E5A4C7;
+  --fifth-gradient: #DE9DC4;
+  --sixth-gradient: #D596C1;
+  --seventh-gradient: #CD8EBD;
+  --eighth-gradient: #C587BA;
+  --nineth-gradient: #BD80B7;
+  --tenth-gradient: #B578B4;
+  --eleventh-gradient: #AD71B1;
+  --twelfth-gradient: #A66AAE;
+
+  --longer-input: 11.5rem;
+  --shorter-input: 8.5rem;
+}
+
+
+/* Mobile screen */
+@media screen and (max-width: 636px) {
+  :root {
+    --longer-input: 100%;
+    --shorter-input: 100%;
+  }
+}

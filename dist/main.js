@@ -16,7 +16,7 @@
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_AddExpense__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/AddExpense */ \"./js/components/AddExpense.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\nvar App = function App(props) {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_components_AddExpense__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {});\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _App_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.module.css */ \"./js/App.module.css\");\n/* harmony import */ var _components_AddExpense__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/AddExpense */ \"./js/components/AddExpense.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\nvar App = function App(props) {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_AddExpense__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {});\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/App.js?");
 
 /***/ }),
 
@@ -27,7 +27,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\nvar AddExpense = function AddExpense(props) {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"div\", {\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(\"form\", {\n      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"label\", {\n        children: \"Title\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"input\", {\n        id: \"title\",\n        type: \"text\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"label\", {\n        children: \"Date\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"input\", {\n        id: \"date\",\n        type: \"date\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"label\", {\n        children: \"Amount\"\n      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(\"input\", {\n        id: \"amount\",\n        type: \"number\"\n      })]\n    })\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (AddExpense);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/AddExpense.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _UI_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UI/Card */ \"./js/components/UI/Card.js\");\n/* harmony import */ var _UI_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./UI/Button */ \"./js/components/UI/Button.js\");\n/* harmony import */ var _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AddExpense.module.css */ \"./js/components/AddExpense.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\n\nvar AddExpense = function AddExpense(props) {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"div\", {\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_UI_Card__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n      className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].input,\n      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(\"form\", {\n        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(\"div\", {\n          className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputContainer,\n          id: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputTitle,\n          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"label\", {\n            children: \"Title\"\n          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"input\", {\n            id: \"title\",\n            type: \"text\",\n            className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].longerInput\n          })]\n        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(\"div\", {\n          className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputContainer,\n          id: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputDate,\n          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"label\", {\n            children: \"Date\"\n          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"input\", {\n            id: \"date\",\n            type: \"date\",\n            className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].shorterInput\n          })]\n        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"div\", {\n          className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputContainer,\n          id: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].space\n        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(\"div\", {\n          className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputContainer,\n          id: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].inputAmount,\n          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"label\", {\n            children: \"Amount\"\n          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"input\", {\n            id: \"amount\",\n            type: \"number\",\n            className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].shorterInput\n          })]\n        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"div\", {\n          className: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].buttonContainer,\n          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(\"div\", {\n            id: _AddExpense_module_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"].innerButtonContainer,\n            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_UI_Button__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n              type: \"submit\",\n              theme: \"cancelButton\",\n              children: \"CANCEL\"\n            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_UI_Button__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n              type: \"submit\",\n              theme: \"regularButton\",\n              children: \"ADD EXPENSE\"\n            })]\n          })\n        })]\n      })\n    })\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (AddExpense);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/AddExpense.js?");
+
+/***/ }),
+
+/***/ "./js/components/UI/Button.js":
+/*!************************************!*\
+  !*** ./js/components/UI/Button.js ***!
+  \************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Button.module.css */ \"./js/components/UI/Button.module.css\");\n/* harmony import */ var _ButtonCancel_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonCancel.module.css */ \"./js/components/UI/ButtonCancel.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\nvar Button = function Button(props) {\n  // theme: 'regularButton' = solid button style\n  // theme: 'cancelButton' = void button style\n  var theme = \"\";\n  if (props.theme == 'regularButton') {\n    theme = _Button_module_css__WEBPACK_IMPORTED_MODULE_0__[\"default\"].button;\n  } else if (props.theme == 'cancelButton') {\n    theme = _ButtonCancel_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].button;\n  }\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"button\", {\n    className: theme,\n    type: props.type || 'button',\n    onClick: props.onClick,\n    children: props.children\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (Button);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/UI/Button.js?");
+
+/***/ }),
+
+/***/ "./js/components/UI/Card.js":
+/*!**********************************!*\
+  !*** ./js/components/UI/Card.js ***!
+  \**********************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Card_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card.module.css */ \"./js/components/UI/Card.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\nvar Card = function Card(props) {\n  var classes = \"\".concat(_Card_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].card, \" \").concat(props.className);\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"div\", {\n    className: classes,\n    children: props.children\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (Card);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/UI/Card.js?");
 
 /***/ }),
 
@@ -110,6 +132,61 @@ eval("module.exports = {\n  indexOf: function (arr, item) {\n    var i, j;\n    
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack_boilerplate/./css/main.css?");
+
+/***/ }),
+
+/***/ "./js/App.module.css":
+/*!***************************!*\
+  !*** ./js/App.module.css ***!
+  \***************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/App.module.css?");
+
+/***/ }),
+
+/***/ "./js/components/AddExpense.module.css":
+/*!*********************************************!*\
+  !*** ./js/components/AddExpense.module.css ***!
+  \*********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"input\":\"VMxzDGXCk7Znd9dwoECA\",\"inputContainer\":\"T0ChpWo3tUE07BzeF6CB\",\"shorterInput\":\"IaSiHUD9kmBJ3ABJGzj7\",\"longerInput\":\"pDgE97aoSIadyYzNeNX3\",\"space\":\"CuRt1HQZhmtwjK4xyhSO\",\"buttonContainer\":\"rJjXescbtxAh4EEgB_nU\",\"innerButtonContainer\":\"WpIikX3gJlvxCl222Zpw\",\"inputTitle\":\"hLTXwmD7seVPrhV17WuN\",\"inputDate\":\"BR3idNV2IStDhKQG6y1q\",\"inputAmount\":\"SX2_isXsoAx6S4c5xRj9\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/AddExpense.module.css?");
+
+/***/ }),
+
+/***/ "./js/components/UI/Button.module.css":
+/*!********************************************!*\
+  !*** ./js/components/UI/Button.module.css ***!
+  \********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"button\":\"hhh7kPm4bMrn8RK3cbSi\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/UI/Button.module.css?");
+
+/***/ }),
+
+/***/ "./js/components/UI/ButtonCancel.module.css":
+/*!**************************************************!*\
+  !*** ./js/components/UI/ButtonCancel.module.css ***!
+  \**************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"button\":\"A52nW0fOd8i3iaAMla6D\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/UI/ButtonCancel.module.css?");
+
+/***/ }),
+
+/***/ "./js/components/UI/Card.module.css":
+/*!******************************************!*\
+  !*** ./js/components/UI/Card.module.css ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"card\":\"KAxiHfk6sFfr82bGrZBm\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/UI/Card.module.css?");
 
 /***/ }),
 

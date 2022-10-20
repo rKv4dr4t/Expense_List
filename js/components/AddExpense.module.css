@@ -1,0 +1,93 @@
+.input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  height: 400px;
+  max-width: 51rem;
+}
+
+.input label {
+  display: block;
+  padding: 0 0 0.3125rem 0.625rem;
+  color: var(--light-element);
+}
+
+.input input {
+  border-radius: 10px;
+  border-style: none;
+  padding: 7px 8px 4px 8px;
+  color: var(--light-element);
+}
+
+.input input:focus {
+  outline: 2px solid var(--light-element);
+}
+
+.input input::selection {
+  background-color: var(--light-element);
+  color: white;
+}
+
+/* single div that contains an input and a label */
+.inputContainer {
+  display: inline-block;
+  padding: 0 0.625rem;
+}
+
+.shorterInput {
+  width: var(--shorter-input);
+}
+
+.longerInput {
+  width: var(--longer-input);
+  display: block;
+}
+
+#space {
+  display: none;
+}
+
+/* single div that contains buttons field */
+.buttonContainer {
+  text-align: right;
+}
+
+#innerButtonContainer {
+    display: inline-block;
+}
+
+/* --- */
+/* Mobile screen */
+@media screen and (max-width: 636px) {
+  .inputContainer {
+    padding: 0;
+  }
+
+  .input input {
+    box-sizing: border-box;   
+    padding: 7px 8px 4px 8px;
+  }
+
+  #inputTitle {
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+  }
+
+  #space {
+    width: 4%;
+  }
+
+  #inputDate {
+    float: left;
+    width: 48%;
+    padding: 0;
+    margin: 0;
+  }
+  #inputAmount {
+    float: right;
+    width: 48%;
+    padding: 0;
+    margin: 0;
+  }
+}

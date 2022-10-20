@@ -378,3 +378,199 @@ template {
  * Shamelessly borrowed from HTML5Boilerplate:
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/App.module.css ***!
+  \*********************************************************************/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --pink-background: #F9E5DB;
+  --purple-background: #9C90AC;
+  --light-element: #6867AC;
+  --dark-element: #4D4C7D;
+
+  --first-gradient: #FDBAD0;
+  --second-gradient: #F5B3CD;
+  --third-gradient: #EDACCA;
+  --fourth-gradient: #E5A4C7;
+  --fifth-gradient: #DE9DC4;
+  --sixth-gradient: #D596C1;
+  --seventh-gradient: #CD8EBD;
+  --eighth-gradient: #C587BA;
+  --nineth-gradient: #BD80B7;
+  --tenth-gradient: #B578B4;
+  --eleventh-gradient: #AD71B1;
+  --twelfth-gradient: #A66AAE;
+
+  --longer-input: 11.5rem;
+  --shorter-input: 8.5rem;
+}
+
+
+/* Mobile screen */
+@media screen and (max-width: 636px) {
+  :root {
+    --longer-input: 100%;
+    --shorter-input: 100%;
+  }
+}
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/Card.module.css ***!
+  \************************************************************************************/
+.KAxiHfk6sFfr82bGrZBm {
+    background: var(--pink-background);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+/*!**************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/Button.module.css ***!
+  \**************************************************************************************/
+.hhh7kPm4bMrn8RK3cbSi {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 140px;
+  font: inherit;
+  border: 2px solid var(--light-element);
+  background: var(--light-element);
+  border-radius: 0.625rem;
+  color: var(--pink-background);
+  padding: 0.3rem 1rem 0.2rem 1rem;
+  cursor: pointer;
+}
+
+.hhh7kPm4bMrn8RK3cbSi:hover,
+.hhh7kPm4bMrn8RK3cbSi:active {
+  background-color: var(--dark-element);
+  border-color: var(--dark-element);
+}
+
+.hhh7kPm4bMrn8RK3cbSi:focus {
+  outline: none;
+}
+
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/ButtonCancel.module.css ***!
+  \********************************************************************************************/
+.A52nW0fOd8i3iaAMla6D {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 140px;
+  font: inherit;
+  background-color: transparent;;
+  border: 2px solid var(--light-element);
+  border-radius: 0.625rem;
+  color: var(--light-element);
+  padding: 0.3rem 1rem 0.2rem 1rem;
+  cursor: pointer;
+}
+
+.A52nW0fOd8i3iaAMla6D:hover,
+.A52nW0fOd8i3iaAMla6D:active {
+  background-color: var(--dark-element);
+  border-color: var(--dark-element);
+  color: var(--pink-background);
+}
+
+.A52nW0fOd8i3iaAMla6D:focus {
+  outline: none;
+}
+
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/AddExpense.module.css ***!
+  \***************************************************************************************/
+.VMxzDGXCk7Znd9dwoECA {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  height: 400px;
+  max-width: 51rem;
+}
+
+.VMxzDGXCk7Znd9dwoECA label {
+  display: block;
+  padding: 0 0 0.3125rem 0.625rem;
+  color: var(--light-element);
+}
+
+.VMxzDGXCk7Znd9dwoECA input {
+  border-radius: 10px;
+  border-style: none;
+  padding: 7px 8px 4px 8px;
+  color: var(--light-element);
+}
+
+.VMxzDGXCk7Znd9dwoECA input:focus {
+  outline: 2px solid var(--light-element);
+}
+
+.VMxzDGXCk7Znd9dwoECA input::selection {
+  background-color: var(--light-element);
+  color: white;
+}
+
+/* single div that contains an input and a label */
+.T0ChpWo3tUE07BzeF6CB {
+  display: inline-block;
+  padding: 0 0.625rem;
+}
+
+.IaSiHUD9kmBJ3ABJGzj7 {
+  width: var(--shorter-input);
+}
+
+.pDgE97aoSIadyYzNeNX3 {
+  width: var(--longer-input);
+  display: block;
+}
+
+#CuRt1HQZhmtwjK4xyhSO {
+  display: none;
+}
+
+/* single div that contains buttons field */
+.rJjXescbtxAh4EEgB_nU {
+  text-align: right;
+}
+
+#WpIikX3gJlvxCl222Zpw {
+    display: inline-block;
+}
+
+/* --- */
+/* Mobile screen */
+@media screen and (max-width: 636px) {
+  .T0ChpWo3tUE07BzeF6CB {
+    padding: 0;
+  }
+
+  .VMxzDGXCk7Znd9dwoECA input {
+    box-sizing: border-box;   
+    padding: 7px 8px 4px 8px;
+  }
+
+  #hLTXwmD7seVPrhV17WuN {
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+  }
+
+  #CuRt1HQZhmtwjK4xyhSO {
+    width: 4%;
+  }
+
+  #BR3idNV2IStDhKQG6y1q {
+    float: left;
+    width: 48%;
+    padding: 0;
+    margin: 0;
+  }
+  #SX2_isXsoAx6S4c5xRj9 {
+    float: right;
+    width: 48%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
