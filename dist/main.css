@@ -416,14 +416,6 @@ body {
     --shorter-input: 100%;
   }
 }
-/*!************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/Card.module.css ***!
-  \************************************************************************************/
-.KAxiHfk6sFfr82bGrZBm {
-    background: var(--pink-background);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    border-radius: 10px;
-}
 /*!**************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/Button.module.css ***!
   \**************************************************************************************/
@@ -482,10 +474,11 @@ body {
   \***************************************************************************************/
 .VMxzDGXCk7Znd9dwoECA {
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 1rem 1rem 2.5rem 1rem;
   width: 90%;
-  height: 400px;
   max-width: 51rem;
+  background: var(--pink-background);
+  border-radius: 10px 10px 0px 0px;
 }
 
 .VMxzDGXCk7Znd9dwoECA label {
@@ -574,3 +567,22 @@ body {
   }
 }
 
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseDate.module.css ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseItem.module.css ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseList.module.css ***!
+  \****************************************************************************************/
+.Gtz3JRHVGBYabo7tM8t6 {
+    background-color: var(--purple-background);
+    margin: -3.1rem auto;
+    padding: 1rem 1rem 2.5rem 1rem;
+    width: 90%;
+    max-width: 51rem;
+    border-radius: 10px;
+}

@@ -1,9 +1,10 @@
 .input {
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 1rem 1rem 2.5rem 1rem;
   width: 90%;
-  height: 400px;
   max-width: 51rem;
+  background: var(--pink-background);
+  border-radius: 10px 10px 0px 0px;
 }
 
 .input label {
