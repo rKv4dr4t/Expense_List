@@ -1,0 +1,9 @@
+.date {
+    background-color: var(--light-element);
+    margin-right: 1.5rem;
+    padding: 1rem;
+    border: solid 3px var(--dark-element);
+    border-radius: 1.5rem;
+    width: 100px;
+    text-align: center;
+}

@@ -570,19 +570,51 @@ body {
 /*!****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseDate.module.css ***!
   \****************************************************************************************/
+.pO1BU95gQ0vioHRgbl8J {
+    background-color: var(--light-element);
+    margin-right: 1.5rem;
+    padding: 1rem;
+    border: solid 3px var(--dark-element);
+    border-radius: 1.5rem;
+    width: 100px;
+    text-align: center;
+}
 
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/ItemCard.module.css ***!
+  \****************************************************************************************/
+.sAHnVr9ApGvW1KQvM5zU {
+    background-color: var(--dark-element);
+    border-radius: 1.5rem;
+}
 /*!****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseItem.module.css ***!
   \****************************************************************************************/
+.fGtu9Umh1eM42Cx6S38r:not(.fGtu9Umh1eM42Cx6S38r:last-child) {
+  margin-bottom: 1rem;
+  padding: 0;
+}
 
+.s4a43SYgamSIrUqxfrD0 {
+  display: flex;
+  align-items: baseline;
+  color: var(--pink-background);
+}
+
+.qiFcyz3SGEzbNv5MA4Cb {
+  margin-left: auto;
+  margin-right: 2rem;
+}
 /*!****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseList.module.css ***!
   \****************************************************************************************/
 .Gtz3JRHVGBYabo7tM8t6 {
-    background-color: var(--purple-background);
-    margin: -3.1rem auto;
-    padding: 1rem 1rem 2.5rem 1rem;
-    width: 90%;
-    max-width: 51rem;
-    border-radius: 10px;
+  background-color: var(--purple-background);
+  margin: -3.1rem auto;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 90%;
+  max-width: 51rem;
+  border-radius: 10px;
+  list-style-type: none;
 }
+

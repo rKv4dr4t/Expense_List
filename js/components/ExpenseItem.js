@@ -1,19 +1,20 @@
-import React from 'react';
+import React from 'react'
 
-import ExpenseDate from './ExpenseDate';
+import ExpenseDate from './ExpenseDate'
+import ItemCard from './UI/ItemCard'
 
-import styles from './ExpenseItem.module.css';
+import styles from './ExpenseItem.module.css'
 
 const ExpenseItem = (props) => {
   return (
-    <li>
-      {/* <Card className="expense-item"> */}
-        <div className="expense-item__description">
-          <h2>{props.title}</h2>
-          <div className="expense-item__price">€ {props.amount}</div>
-          <ExpenseDate date={props.date} />
+    <li className={styles.expenseItem}>
+      <ItemCard>
+        <div className={styles['expenseItem-element']}>
+          <ExpenseDate date={props.date} className={styles['expenseItem-date']} />
+          <div className={styles['expenseItem-title']}>{props.title}</div>
+          <div className={styles['expenseItem-amount']}>€ {props.amount}</div>
         </div>
-      {/* </Card> */}
+      </ItemCard>
     </li>
   )
 }

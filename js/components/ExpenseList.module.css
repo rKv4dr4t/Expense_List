@@ -1,8 +1,9 @@
 .expense {
-    background-color: var(--purple-background);
-    margin: -3.1rem auto;
-    padding: 1rem 1rem 2.5rem 1rem;
-    width: 90%;
-    max-width: 51rem;
-    border-radius: 10px;
+  background-color: var(--purple-background);
+  margin: -3.1rem auto;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 90%;
+  max-width: 51rem;
+  border-radius: 10px;
+  list-style-type: none;
 }
