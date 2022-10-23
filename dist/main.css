@@ -635,11 +635,15 @@ body {
   margin-left: auto;
   margin-top: 0.5rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 10px;
   padding: 0.5rem;
   width: 100px;
   color: var(--light-element);
   background-color: white;
+}
+
+.w6xsFNRrQSYW9XAqBlT0 option {
+  padding: 1rem;
 }
 
 .w6xsFNRrQSYW9XAqBlT0:active, .w6xsFNRrQSYW9XAqBlT0:focus {
@@ -649,4 +653,3 @@ body {
 .w6xsFNRrQSYW9XAqBlT0:hover {
   cursor: pointer;
 }
-
