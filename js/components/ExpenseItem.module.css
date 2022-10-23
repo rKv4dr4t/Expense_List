@@ -1,12 +1,21 @@
+.expenseItem:first-child {
+  margin-top: 5rem;
+}
+
 .expenseItem:not(.expenseItem:last-child) {
   margin-bottom: 1rem;
   padding: 0;
 }
 
 .expenseItem-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   color: var(--pink-background);
+  margin-left: -2.5rem;
 }
 
 .expenseItem-amount {

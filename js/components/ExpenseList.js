@@ -6,16 +6,23 @@ import styles from './ExpenseList.module.css'
 
 const ExpenseList = (props) => {
   return (
-    <ul className={styles.expense}>
-      {props.items.map((expense) => (
-        <ExpenseItem
-          key={expense.id}
-          title={expense.title}
-          amount={expense.amount}
-          date={expense.date}
-        />
-      ))}
-    </ul>
+    <div className={styles.expense}>
+      <select className={styles.year}>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+      </select>
+      <ul>
+        {props.items.map((expense) => (
+          <ExpenseItem
+            key={expense.id}
+            title={expense.title}
+            amount={expense.amount}
+            date={expense.date}
+          />
+        ))}
+      </ul>
+    </div>
   )
 }
 

@@ -422,13 +422,13 @@ body {
 .hhh7kPm4bMrn8RK3cbSi {
   margin-top: 1.5rem;
   margin-left: 1rem;
-  width: 140px;
+  width: 150px;
   font: inherit;
   border: 2px solid var(--light-element);
   background: var(--light-element);
   border-radius: 0.625rem;
   color: var(--pink-background);
-  padding: 0.3rem 1rem 0.2rem 1rem;
+  padding: 0.3rem 1.3rem 0.3rem 1.3rem;
   cursor: pointer;
 }
 
@@ -448,13 +448,13 @@ body {
 .A52nW0fOd8i3iaAMla6D {
   margin-top: 1.5rem;
   margin-left: 1rem;
-  width: 140px;
+  width: 150px;
   font: inherit;
   background-color: transparent;;
   border: 2px solid var(--light-element);
   border-radius: 0.625rem;
   color: var(--light-element);
-  padding: 0.3rem 1rem 0.2rem 1rem;
+  padding: 0.3rem 1.3rem 0.3rem 1.3rem;
   cursor: pointer;
 }
 
@@ -590,15 +590,24 @@ body {
 /*!****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseItem.module.css ***!
   \****************************************************************************************/
+.fGtu9Umh1eM42Cx6S38r:first-child {
+  margin-top: 5rem;
+}
+
 .fGtu9Umh1eM42Cx6S38r:not(.fGtu9Umh1eM42Cx6S38r:last-child) {
   margin-bottom: 1rem;
   padding: 0;
 }
 
 .s4a43SYgamSIrUqxfrD0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   color: var(--pink-background);
+  margin-left: -2.5rem;
 }
 
 .qiFcyz3SGEzbNv5MA4Cb {
@@ -615,6 +624,29 @@ body {
   width: 90%;
   max-width: 51rem;
   border-radius: 10px;
+}
+
+.Gtz3JRHVGBYabo7tM8t6 ul {
   list-style-type: none;
+}
+
+.w6xsFNRrQSYW9XAqBlT0 {
+  float: right;
+  margin-left: auto;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 100px;
+  color: var(--light-element);
+  background-color: white;
+}
+
+.w6xsFNRrQSYW9XAqBlT0:active, .w6xsFNRrQSYW9XAqBlT0:focus {
+  outline: none;
+}
+
+.w6xsFNRrQSYW9XAqBlT0:hover {
+  cursor: pointer;
 }
 

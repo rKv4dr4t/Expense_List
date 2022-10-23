@@ -35,10 +35,17 @@ const AddExpense = (props) => {
     setEnteredAmount('');
   }
 
+  const resetHandler = (event) => {
+    event.preventDefault()
+    setEnteredTitle('');
+    setEnteredDate('');
+    setEnteredAmount('');
+  }
+
   return (
     <div>
       <div className={styles.input}>
-        <form onSubmit={submitHandler}>
+        <form onSubmit={submitHandler} onReset={resetHandler}>
           <div className={styles.inputContainer} id={styles.inputTitle}>
             <label>Title</label>
             <input
@@ -72,9 +79,9 @@ const AddExpense = (props) => {
           </div>
           <div className={styles.buttonContainer}>
             <div id={styles.innerButtonContainer}>
-              {/* <Button type="submit" theme="cancelButton">
+              <Button type="reset" theme="cancelButton">
                 CANCEL
-              </Button> */}
+              </Button>
               <Button type="submit" theme="regularButton">
                 ADD EXPENSE
               </Button>

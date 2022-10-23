@@ -1,13 +1,13 @@
 .button {
   margin-top: 1.5rem;
   margin-left: 1rem;
-  width: 140px;
+  width: 150px;
   font: inherit;
   background-color: transparent;;
   border: 2px solid var(--light-element);
   border-radius: 0.625rem;
   color: var(--light-element);
-  padding: 0.3rem 1rem 0.2rem 1rem;
+  padding: 0.3rem 1.3rem 0.3rem 1.3rem;
   cursor: pointer;
 }
 
