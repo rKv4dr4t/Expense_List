@@ -663,9 +663,9 @@ body {
 .JoxVkEwo1i6VBHMU6xn7 {
     width: 13px;
     height: 13px;
-    /* background-color: var(--first-gradient); */
     display: inline-block;
     margin-left: 2rem;
+    outline: 2px solid var(--dark-element);
 }
 
 .zGNBMWGJudrhOzX9q_mA {
