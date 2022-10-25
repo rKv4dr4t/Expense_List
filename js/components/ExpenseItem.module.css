@@ -1,5 +1,5 @@
 .expenseItem:first-child {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .expenseItem:not(.expenseItem:last-child) {

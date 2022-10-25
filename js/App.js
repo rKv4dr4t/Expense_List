@@ -24,6 +24,12 @@ const DUMMY_EXPENSES = [
     amount: 799.49,
     date: new Date(2022, 11, 28),
   },
+  {
+    id: 'e4',
+    title: 'Blue watermelon',
+    amount: 39.79,
+    date: new Date(2022, 2, 21),
+  },
 ]
 
 const App = (props) => {

@@ -568,53 +568,6 @@ body {
 }
 
 /*!****************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseDate.module.css ***!
-  \****************************************************************************************/
-.pO1BU95gQ0vioHRgbl8J {
-    background-color: var(--light-element);
-    margin-right: 1.5rem;
-    padding: 1rem;
-    border: solid 3px var(--dark-element);
-    border-radius: 1.5rem;
-    width: 100px;
-    text-align: center;
-}
-
-/*!****************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/ItemCard.module.css ***!
-  \****************************************************************************************/
-.sAHnVr9ApGvW1KQvM5zU {
-    background-color: var(--dark-element);
-    border-radius: 1.5rem;
-}
-/*!****************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseItem.module.css ***!
-  \****************************************************************************************/
-.fGtu9Umh1eM42Cx6S38r:first-child {
-  margin-top: 5rem;
-}
-
-.fGtu9Umh1eM42Cx6S38r:not(.fGtu9Umh1eM42Cx6S38r:last-child) {
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-.s4a43SYgamSIrUqxfrD0 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  color: var(--pink-background);
-  margin-left: -2.5rem;
-}
-
-.qiFcyz3SGEzbNv5MA4Cb {
-  margin-left: auto;
-  margin-right: 2rem;
-}
-/*!****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseList.module.css ***!
   \****************************************************************************************/
 .Gtz3JRHVGBYabo7tM8t6 {
@@ -652,4 +605,91 @@ body {
 
 .w6xsFNRrQSYW9XAqBlT0:hover {
   cursor: pointer;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseDate.module.css ***!
+  \****************************************************************************************/
+.pO1BU95gQ0vioHRgbl8J {
+    background-color: var(--light-element);
+    margin-right: 1.5rem;
+    padding: 1rem;
+    border: solid 3px var(--dark-element);
+    border-radius: 1.5rem;
+    width: 100px;
+    text-align: center;
+}
+
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/ItemCard.module.css ***!
+  \****************************************************************************************/
+.sAHnVr9ApGvW1KQvM5zU {
+    background-color: var(--dark-element);
+    border-radius: 1.5rem;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseItem.module.css ***!
+  \****************************************************************************************/
+.fGtu9Umh1eM42Cx6S38r:first-child {
+  margin-top: 2rem;
+}
+
+.fGtu9Umh1eM42Cx6S38r:not(.fGtu9Umh1eM42Cx6S38r:last-child) {
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.s4a43SYgamSIrUqxfrD0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  color: var(--pink-background);
+  margin-left: -2.5rem;
+}
+
+.qiFcyz3SGEzbNv5MA4Cb {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+/*!**************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ItemChart.module.css ***!
+  \**************************************************************************************/
+.Tuuv7skOv2EBlcD69KNQ {
+    margin-bottom: 0.5rem;
+}
+
+.JoxVkEwo1i6VBHMU6xn7 {
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-gradient);
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.zGNBMWGJudrhOzX9q_mA {
+    color: var(--pink-background);
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+/*!**************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/LongChart.module.css ***!
+  \**************************************************************************************/
+.PwaNNtUXtSBqFjqDSKvB {
+    width: 100%;
+    height: 1.25rem;
+    background-color: var(--first-gradient);
+    border: 2px solid var(--dark-element);
+    margin-top: 0.2rem;
+    border-radius: 10px;
+}
+
+.DZTIu0oIQvnu30y3hPEH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 4rem;
 }
