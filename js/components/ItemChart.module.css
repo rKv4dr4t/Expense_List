@@ -5,7 +5,7 @@
 .squareItem {
     width: 13px;
     height: 13px;
-    background-color: var(--first-gradient);
+    /* background-color: var(--first-gradient); */
     display: inline-block;
     margin-left: 2rem;
 }
