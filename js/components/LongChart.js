@@ -7,7 +7,6 @@ import MonthBarChart from './MonthBarChart'
 
 const LongChart = (props) => {
   let color = []
-  // let colorContainer = [];
 
   {
     props.monthItems.map((dateMonth, index) => {
@@ -48,8 +47,6 @@ const LongChart = (props) => {
         // December
         color.push(`var(--twelfth-gradient)`)
       }
-
-      // console.log(color)
     })
   }
 
