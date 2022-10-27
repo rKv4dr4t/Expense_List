@@ -654,13 +654,41 @@ body {
   margin-right: 2rem;
 }
 /*!**************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ItemChart.module.css ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/LongChart.module.css ***!
   \**************************************************************************************/
-.Tuuv7skOv2EBlcD69KNQ {
+.dsPCd8vqIDxvjhZU9S2c {
+  width: 100%;
+  height: 1.25rem;
+  display: block;
+}
+
+.DZTIu0oIQvnu30y3hPEH {
+  width: 100%;
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap; */
+  margin-top: 4rem;
+}
+
+/* .longChart {
+  width: 100%;
+  height: 1.25rem;
+  background-color: var(--first-gradient);
+  border: 2px solid var(--dark-element);
+  margin-top: 0.2rem;
+  border-radius: 10px;
+} */
+
+/*!*******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/MonthNameChart.module.css ***!
+  \*******************************************************************************************/
+.KCYJKhI7HaGYcf2KexDV {
     margin-bottom: 0.5rem;
 }
 
-.JoxVkEwo1i6VBHMU6xn7 {
+.Jos0BrJKmvdctV1q5GLk {
     width: 13px;
     height: 13px;
     display: inline-block;
@@ -668,28 +696,19 @@ body {
     outline: 2px solid var(--dark-element);
 }
 
-.zGNBMWGJudrhOzX9q_mA {
+.OmNLKrTq2TiueTKE0O6g {
     color: var(--pink-background);
     display: inline-block;
     padding-left: 0.5rem;
 }
-/*!**************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/LongChart.module.css ***!
-  \**************************************************************************************/
-.PwaNNtUXtSBqFjqDSKvB {
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/MonthBarChart.module.css ***!
+  \******************************************************************************************/
+.K9pTDdc5uj0gRLw8rE5l {
     width: 100%;
     height: 1.25rem;
     background-color: var(--first-gradient);
     border: 2px solid var(--dark-element);
     margin-top: 0.2rem;
     border-radius: 10px;
-}
-
-.DZTIu0oIQvnu30y3hPEH {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: 4rem;
-}
+  }

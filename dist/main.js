@@ -64,17 +64,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./js/components/ItemChart.js":
-/*!************************************!*\
-  !*** ./js/components/ItemChart.js ***!
-  \************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ItemChart_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ItemChart.module.css */ \"./js/components/ItemChart.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar ItemChart = function ItemChart(props) {\n  var month = props.month.toLocaleString('en-US', {\n    month: 'long'\n  });\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(\"div\", {\n    className: _ItemChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].itemChart,\n    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"div\", {\n      className: _ItemChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].squareItem,\n      style: {\n        backgroundColor: props.colorMonth\n      }\n    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"div\", {\n      className: _ItemChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].titleItem,\n      children: month\n    })]\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (ItemChart);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/ItemChart.js?");
-
-/***/ }),
-
 /***/ "./js/components/LongChart.js":
 /*!************************************!*\
   !*** ./js/components/LongChart.js ***!
@@ -82,7 +71,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ItemChart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ItemChart */ \"./js/components/ItemChart.js\");\n/* harmony import */ var _LongChart_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LongChart.module.css */ \"./js/components/LongChart.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\nvar LongChart = function LongChart(props) {\n  var color;\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(\"div\", {\n    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"div\", {\n      className: _LongChart_module_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"].monthsContainer,\n      children: props.monthItems.map(function (dateMonth) {\n        if (dateMonth.date.getMonth() == 0) {\n          // January\n          color = \"var(--first-gradient)\";\n        } else if (dateMonth.date.getMonth() == 1) {\n          // February\n          color = \"var(--second-gradient)\";\n        } else if (dateMonth.date.getMonth() == 2) {\n          // March\n          color = \"var(--third-gradient)\";\n        } else if (dateMonth.date.getMonth() == 3) {\n          // April\n          color = \"var(--fourth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 4) {\n          // May\n          color = \"var(--fifth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 5) {\n          // June\n          color = \"var(--sixth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 6) {\n          // July\n          color = \"var(--seventh-gradient)\";\n        } else if (dateMonth.date.getMonth() == 7) {\n          // August\n          color = \"var(--eighth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 8) {\n          // September\n          color = \"var(--nineth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 9) {\n          // October\n          color = \"var(--tenth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 10) {\n          // November\n          color = \"var(--eleventh-gradient)\";\n        } else if (dateMonth.date.getMonth() == 11) {\n          // December\n          color = \"var(--twelfth-gradient)\";\n        }\n        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_ItemChart__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n          month: dateMonth.date,\n          colorMonth: color\n        }, dateMonth.id);\n      })\n    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(\"div\", {\n      className: _LongChart_module_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"].longChart\n    })]\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (LongChart);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/LongChart.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _LongChart_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LongChart.module.css */ \"./js/components/LongChart.module.css\");\n/* harmony import */ var _MonthNameChart__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MonthNameChart */ \"./js/components/MonthNameChart.js\");\n/* harmony import */ var _MonthBarChart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MonthBarChart */ \"./js/components/MonthBarChart.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\n\nvar LongChart = function LongChart(props) {\n  var color;\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"div\", {\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"div\", {\n      className: _LongChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].monthsContainer,\n      children: props.monthItems.map(function (dateMonth) {\n        if (dateMonth.date.getMonth() == 0) {\n          // January\n          color = \"var(--first-gradient)\";\n        } else if (dateMonth.date.getMonth() == 1) {\n          // February\n          color = \"var(--second-gradient)\";\n        } else if (dateMonth.date.getMonth() == 2) {\n          // March\n          color = \"var(--third-gradient)\";\n        } else if (dateMonth.date.getMonth() == 3) {\n          // April\n          color = \"var(--fourth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 4) {\n          // May\n          color = \"var(--fifth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 5) {\n          // June\n          color = \"var(--sixth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 6) {\n          // July\n          color = \"var(--seventh-gradient)\";\n        } else if (dateMonth.date.getMonth() == 7) {\n          // August\n          color = \"var(--eighth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 8) {\n          // September\n          color = \"var(--nineth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 9) {\n          // October\n          color = \"var(--tenth-gradient)\";\n        } else if (dateMonth.date.getMonth() == 10) {\n          // November\n          color = \"var(--eleventh-gradient)\";\n        } else if (dateMonth.date.getMonth() == 11) {\n          // December\n          color = \"var(--twelfth-gradient)\";\n        }\n        return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(\"div\", {\n          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_MonthNameChart__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n            month: dateMonth.date,\n            colorMonth: color\n          }, dateMonth.id), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(\"div\", {\n            className: _LongChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].containerBarChart,\n            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_MonthBarChart__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n              colorMonth: color\n            })\n          })]\n        }, Math.random());\n      })\n    })\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (LongChart);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/LongChart.js?");
+
+/***/ }),
+
+/***/ "./js/components/MonthBarChart.js":
+/*!****************************************!*\
+  !*** ./js/components/MonthBarChart.js ***!
+  \****************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MonthBarChart_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MonthBarChart.module.css */ \"./js/components/MonthBarChart.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\nvar MonthBarChart = function MonthBarChart(props) {\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"div\", {\n    className: _MonthBarChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].longChart,\n    style: {\n      backgroundColor: props.colorMonth\n    }\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (MonthBarChart);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/MonthBarChart.js?");
+
+/***/ }),
+
+/***/ "./js/components/MonthNameChart.js":
+/*!*****************************************!*\
+  !*** ./js/components/MonthNameChart.js ***!
+  \*****************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MonthNameChart_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MonthNameChart.module.css */ \"./js/components/MonthNameChart.module.css\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\nvar MonthNameChart = function MonthNameChart(props) {\n  var month = props.month.toLocaleString('en-US', {\n    month: 'long'\n  });\n  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(\"div\", {\n    className: _MonthNameChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].itemChart,\n    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"div\", {\n      className: _MonthNameChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].squareItem,\n      style: {\n        backgroundColor: props.colorMonth\n      }\n    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(\"div\", {\n      className: _MonthNameChart_module_css__WEBPACK_IMPORTED_MODULE_1__[\"default\"].titleItem,\n      children: month\n    })]\n  });\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (MonthNameChart);\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/MonthNameChart.js?");
 
 /***/ }),
 
@@ -245,17 +256,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./js/components/ItemChart.module.css":
-/*!********************************************!*\
-  !*** ./js/components/ItemChart.module.css ***!
-  \********************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"itemChart\":\"Tuuv7skOv2EBlcD69KNQ\",\"squareItem\":\"JoxVkEwo1i6VBHMU6xn7\",\"titleItem\":\"zGNBMWGJudrhOzX9q_mA\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/ItemChart.module.css?");
-
-/***/ }),
-
 /***/ "./js/components/LongChart.module.css":
 /*!********************************************!*\
   !*** ./js/components/LongChart.module.css ***!
@@ -263,7 +263,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"longChart\":\"PwaNNtUXtSBqFjqDSKvB\",\"monthsContainer\":\"DZTIu0oIQvnu30y3hPEH\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/LongChart.module.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"containerBarChart\":\"dsPCd8vqIDxvjhZU9S2c\",\"monthsContainer\":\"DZTIu0oIQvnu30y3hPEH\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/LongChart.module.css?");
+
+/***/ }),
+
+/***/ "./js/components/MonthBarChart.module.css":
+/*!************************************************!*\
+  !*** ./js/components/MonthBarChart.module.css ***!
+  \************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"longChart\":\"K9pTDdc5uj0gRLw8rE5l\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/MonthBarChart.module.css?");
+
+/***/ }),
+
+/***/ "./js/components/MonthNameChart.module.css":
+/*!*************************************************!*\
+  !*** ./js/components/MonthNameChart.module.css ***!
+  \*************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"itemChart\":\"KCYJKhI7HaGYcf2KexDV\",\"squareItem\":\"Jos0BrJKmvdctV1q5GLk\",\"titleItem\":\"OmNLKrTq2TiueTKE0O6g\"});\n\n//# sourceURL=webpack://webpack_boilerplate/./js/components/MonthNameChart.module.css?");
 
 /***/ }),
 

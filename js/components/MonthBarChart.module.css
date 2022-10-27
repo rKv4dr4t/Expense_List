@@ -1,0 +1,8 @@
+.longChart {
+    width: 100%;
+    height: 1.25rem;
+    background-color: var(--first-gradient);
+    border: 2px solid var(--dark-element);
+    margin-top: 0.2rem;
+    border-radius: 10px;
+  }

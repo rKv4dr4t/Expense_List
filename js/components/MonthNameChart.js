@@ -1,10 +1,8 @@
 import React from 'react';
 
-import styles from './ItemChart.module.css';
+import styles from './MonthNameChart.module.css';
 
-import './ItemChart.module.css';
-
-const ItemChart = (props) => {
+const MonthNameChart = (props) => {
     const month = props.month.toLocaleString('en-US', { month: 'long' });
   return (
     <div className={styles.itemChart}>
@@ -14,4 +12,4 @@ const ItemChart = (props) => {
   )
 }
 
-export default ItemChart
+export default MonthNameChart
