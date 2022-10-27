@@ -6,65 +6,77 @@ import MonthNameChart from './MonthNameChart'
 import MonthBarChart from './MonthBarChart'
 
 const LongChart = (props) => {
-  let color
+  let color = []
+  // let colorContainer = [];
+
+  {
+    props.monthItems.map((dateMonth, index) => {
+      if (dateMonth.date.getMonth() == 0) {
+        // January
+        color.push(`var(--first-gradient)`)
+      } else if (dateMonth.date.getMonth() == 1) {
+        // February
+        color.push(`var(--second-gradient)`)
+      } else if (dateMonth.date.getMonth() == 2) {
+        // March
+        color.push(`var(--third-gradient)`)
+      } else if (dateMonth.date.getMonth() == 3) {
+        // April
+        color.push(`var(--fourth-gradient)`)
+      } else if (dateMonth.date.getMonth() == 4) {
+        // May
+        color.push(`var(--fifth-gradient)`)
+      } else if (dateMonth.date.getMonth() == 5) {
+        // June
+        color.push(`var(--sixth-gradient)`)
+      } else if (dateMonth.date.getMonth() == 6) {
+        // July
+        color.push(`var(--seventh-gradient)`)
+      } else if (dateMonth.date.getMonth() == 7) {
+        // August
+        color.push(`var(--eighth-gradient)`)
+      } else if (dateMonth.date.getMonth() == 8) {
+        // September
+        color.push(`var(--nineth-gradient)`)
+      } else if (dateMonth.date.getMonth() == 9) {
+        // October
+        color.push(`var(--tenth-gradient)`)
+      } else if (dateMonth.date.getMonth() == 10) {
+        // November
+        color.push(`var(--eleventh-gradient)`)
+      } else if (dateMonth.date.getMonth() == 11) {
+        // December
+        color.push(`var(--twelfth-gradient)`)
+      }
+
+      // console.log(color)
+    })
+  }
 
   return (
     <div>
       <div className={styles.monthsContainer}>
-        {props.monthItems.map((dateMonth) => {
-          if (dateMonth.date.getMonth() == 0) {
-            // January
-            color = `var(--first-gradient)`
-          } else if (dateMonth.date.getMonth() == 1) {
-            // February
-            color = `var(--second-gradient)`
-          } else if (dateMonth.date.getMonth() == 2) {
-            // March
-            color = `var(--third-gradient)`
-          } else if (dateMonth.date.getMonth() == 3) {
-            // April
-            color = `var(--fourth-gradient)`
-          } else if (dateMonth.date.getMonth() == 4) {
-            // May
-            color = `var(--fifth-gradient)`
-          } else if (dateMonth.date.getMonth() == 5) {
-            // June
-            color = `var(--sixth-gradient)`
-          } else if (dateMonth.date.getMonth() == 6) {
-            // July
-            color = `var(--seventh-gradient)`
-          } else if (dateMonth.date.getMonth() == 7) {
-            // August
-            color = `var(--eighth-gradient)`
-          } else if (dateMonth.date.getMonth() == 8) {
-            // September
-            color = `var(--nineth-gradient)`
-          } else if (dateMonth.date.getMonth() == 9) {
-            // October
-            color = `var(--tenth-gradient)`
-          } else if (dateMonth.date.getMonth() == 10) {
-            // November
-            color = `var(--eleventh-gradient)`
-          } else if (dateMonth.date.getMonth() == 11) {
-            // December
-            color = `var(--twelfth-gradient)`
-          }
-
+        {props.monthItems.map((dateMonth, index) => {
           return (
             <div key={Math.random()}>
               <MonthNameChart
                 month={dateMonth.date}
                 key={dateMonth.id}
-                colorMonth={color}
+                colorMonth={color[index]}
               />
-              <div className={styles.containerBarChart}>
-                <MonthBarChart colorMonth={color} />
-              </div>
             </div>
           )
         })}
       </div>
-      {/* <div className={styles.longChart}></div>  */}
+      <div className={styles.containerBarChart}>
+        {props.monthItems.map((dateMonth, index) => {
+          return (
+            <div key={Math.random()}>
+              <MonthBarChart colorMonth={color[index]} />
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

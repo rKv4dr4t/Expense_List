@@ -1,5 +1,5 @@
 .longChart {
-    width: 100%;
+    width: 100px;
     height: 1.25rem;
     background-color: var(--first-gradient);
     border: 2px solid var(--dark-element);
