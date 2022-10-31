@@ -7,9 +7,39 @@ import MonthBarChart from './MonthBarChart'
 
 const LongChart = (props) => {
   let color = []
+  let counts = {}
+
+  let data = props.monthItems
+
+  // const uniques = [...
+  //   new Set(data.map(
+  //     (obj) => {
+  //       return obj.date.getMonth()
+  //     })
+  //   )];
+
+  // console.log(uniques)
+
+  const filteredArr = data.reduce((acc, current) => {
+    const x = acc.find(
+      (item) => item.date.getMonth() === current.date.getMonth(),
+    )
+    if (!x) {
+      return acc.concat([current])
+    } else {
+      return acc
+    }
+  }, [])
+
+
+
+
+
+
+  
 
   {
-    props.monthItems.map((dateMonth, index) => {
+    filteredArr.map((dateMonth, index) => {
       if (dateMonth.date.getMonth() == 0) {
         // January
         color.push(`var(--first-gradient)`)
@@ -47,13 +77,35 @@ const LongChart = (props) => {
         // December
         color.push(`var(--twelfth-gradient)`)
       }
+
+      // console.log(dateMonth.date.getMonth())
     })
+
+    // Count every item (month) in the array
+    color.forEach(function (x) {
+      counts[x] = (counts[x] || 0) + 1
+    })
+    // console.log( Object.keys(counts).length )
+    // console.log(counts)
   }
 
   return (
     <div>
       <div className={styles.monthsContainer}>
-        {props.monthItems.map((dateMonth, index) => {
+        {/* {Object.entries(counts).map((key) => {
+          console.log(key[0] + " " + key[1])
+          return (
+            <div key={Math.random()}>
+              <MonthNameChart
+                month={'December'}
+                key={'test'}
+                colorMonth={key[0]}
+              />
+            </div>
+          ) 
+        })} */}
+
+        {filteredArr.map((dateMonth, index) => {
           return (
             <div key={Math.random()}>
               <MonthNameChart
@@ -66,7 +118,7 @@ const LongChart = (props) => {
         })}
       </div>
       <div className={styles.containerBarChart}>
-        {props.monthItems.map((dateMonth, index) => {
+        {filteredArr.map((dateMonth, index) => {
           return (
             <div key={Math.random()}>
               <MonthBarChart colorMonth={color[index]} />
