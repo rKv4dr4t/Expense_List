@@ -20,6 +20,7 @@ const LongChart = (props) => {
 
   // console.log(uniques)
 
+
   const filteredArr = data.reduce((acc, current) => {
     const x = acc.find(
       (item) => item.date.getMonth() === current.date.getMonth(),
@@ -36,10 +37,12 @@ const LongChart = (props) => {
 
 
 
+
+
   
 
   {
-    filteredArr.map((dateMonth, index) => {
+    props.monthItems.map((dateMonth, index) => {
       if (dateMonth.date.getMonth() == 0) {
         // January
         color.push(`var(--first-gradient)`)
@@ -77,14 +80,18 @@ const LongChart = (props) => {
         // December
         color.push(`var(--twelfth-gradient)`)
       }
-
-      // console.log(dateMonth.date.getMonth())
     })
 
-    // Count every item (month) in the array
+
     color.forEach(function (x) {
       counts[x] = (counts[x] || 0) + 1
     })
+    console.log(counts)
+
+    // Count every item (month) in the array
+    // color.forEach(function (x) {
+    //   counts[x] = (counts[x] || 0) + 1
+    // })
     // console.log( Object.keys(counts).length )
     // console.log(counts)
   }
@@ -121,6 +128,7 @@ const LongChart = (props) => {
         {filteredArr.map((dateMonth, index) => {
           return (
             <div key={Math.random()}>
+            {/* <MonthBarChart colorMonth={props.monthItems[index]} /> */}
               <MonthBarChart colorMonth={color[index]} />
             </div>
           )
