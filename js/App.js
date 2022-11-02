@@ -16,7 +16,7 @@ const DUMMY_EXPENSES = [
     id: 'e2',
     title: 'Broken keyboard',
     amount: 399,
-    date: new Date(2022, 5, 23),
+    date: new Date(2022, 7, 23),
   },
   {
     id: 'e3',

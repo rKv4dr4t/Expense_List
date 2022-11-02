@@ -8,6 +8,10 @@
   flex-wrap: wrap;
 }
 
+.containerMonthBarChart {
+  width: inherit;
+}
+
 .monthsContainer {
   width: 100%;
   display: -webkit-box;
