@@ -21,6 +21,8 @@ const LongChart = (props) => {
   // console.log(uniques)
 
 
+
+  // return not duplicated values
   const filteredArr = data.reduce((acc, current) => {
     const x = acc.find(
       (item) => item.date.getMonth() === current.date.getMonth(),
@@ -31,15 +33,6 @@ const LongChart = (props) => {
       return acc
     }
   }, [])
-
-
-
-
-
-
-
-
-  
 
   {
     props.monthItems.map((dateMonth, index) => {
@@ -82,36 +75,15 @@ const LongChart = (props) => {
       }
     })
 
-
     color.forEach(function (x) {
       counts[x] = (counts[x] || 0) + 1
     })
     console.log(counts)
-
-    // Count every item (month) in the array
-    // color.forEach(function (x) {
-    //   counts[x] = (counts[x] || 0) + 1
-    // })
-    // console.log( Object.keys(counts).length )
-    // console.log(counts)
   }
 
   return (
     <div>
       <div className={styles.monthsContainer}>
-        {/* {Object.entries(counts).map((key) => {
-          console.log(key[0] + " " + key[1])
-          return (
-            <div key={Math.random()}>
-              <MonthNameChart
-                month={'December'}
-                key={'test'}
-                colorMonth={key[0]}
-              />
-            </div>
-          ) 
-        })} */}
-
         {filteredArr.map((dateMonth, index) => {
           return (
             <div key={Math.random()}>
@@ -128,7 +100,7 @@ const LongChart = (props) => {
         {filteredArr.map((dateMonth, index) => {
           return (
             <div key={Math.random()}>
-            {/* <MonthBarChart colorMonth={props.monthItems[index]} /> */}
+              {/* <MonthBarChart colorMonth={props.monthItems[index]} /> */}
               <MonthBarChart colorMonth={color[index]} />
             </div>
           )
