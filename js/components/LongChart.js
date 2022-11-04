@@ -30,7 +30,7 @@ const LongChart = (props) => {
   // calculate the percentage of each month occurancy
   const percentageCalc = (x) => {
     if (duplicatesCount[x] > 0) {
-      return ((duplicatesCount[x] * 100) / data.length) + '%'
+      return (duplicatesCount[x] * 100) / data.length + '%'
     }
   }
 
@@ -89,7 +89,7 @@ const LongChart = (props) => {
           )
         })}
       </div>
-      <div className={styles.contContainerBarChart} > 
+      <div className={styles.contContainerBarChart}>
         <div className={styles.containerBarChart}>
           {notDuplicated.map((dateMonth, index) => {
             return (

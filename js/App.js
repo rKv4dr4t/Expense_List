@@ -10,7 +10,7 @@ const DUMMY_EXPENSES = [
     id: 'e1',
     title: 'Banana hat',
     amount: 94.12,
-    date: new Date(2022, 10, 14),
+    date: new Date(2022, 11, 14),
   },
   {
     id: 'e2',
@@ -32,19 +32,24 @@ const DUMMY_EXPENSES = [
   },
 ]
 
-const App = (props) => {
-    const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
+// alphabetical sorting by month name
+DUMMY_EXPENSES.sort(function (a, b) {
+  return a.date.getMonth() - b.date.getMonth()
+})
 
-    const addExpenseHandler = (expense) => {
-        setExpenses((prevExpenses) => {
-          return [expense, ...prevExpenses];
-        });
-      };
+const App = (props) => {
+  const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
+
+  const addExpenseHandler = (expense) => {
+    setExpenses((prevExpenses) => {
+      return [expense, ...prevExpenses]
+    })
+  }
 
   return (
     <div>
       <AddExpense />
-      <ExpenseList items={expenses}/>
+      <ExpenseList items={expenses} />
     </div>
   )
 }

@@ -615,7 +615,7 @@ body {
     padding: 1rem;
     border: solid 3px var(--dark-element);
     border-radius: 1.5rem;
-    width: 100px;
+    width: 6.5rem;
     text-align: center;
 }
 
@@ -666,14 +666,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* .contContainerBarChart {
-  margin: auto;
-} */
-
-/* .containerMonthBarChart {
-  width: inherit;
-} */
-
 .DZTIu0oIQvnu30y3hPEH {
   width: 100%;
   display: -webkit-box;
@@ -683,16 +675,6 @@ body {
   flex-wrap: wrap;
   margin-top: 4rem;
 }
-
-/* .longChart {
-  width: 100%;
-  height: 1.25rem;
-  background-color: var(--first-gradient);
-  border: 2px solid var(--dark-element);
-  margin-top: 0.2rem;
-  border-radius: 10px;
-} */
-
 /*!*******************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/MonthNameChart.module.css ***!
   \*******************************************************************************************/
