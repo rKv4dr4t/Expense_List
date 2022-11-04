@@ -47,9 +47,18 @@ const App = (props) => {
     })
   }
 
+  // receiving data from child
+  const receiveExpenseDataHandler = (enteredExpenseData) => {
+    const expenseData = {
+      ...enteredExpenseData,
+      id: Math.random().toString(),
+    }
+    // console.log(expenseData)
+  }
+
   return (
     <div>
-      <AddExpense />
+      <AddExpense onSaveExpenseData={receiveExpenseDataHandler} />
       <NewExpense />
       <ExpenseList items={expenses} />
     </div>

@@ -29,7 +29,11 @@ const AddExpense = (props) => {
       date: new Date(enteredDate),
       amount: enteredAmount
     }
-    console.log(expenseData)
+    // console.log(expenseData)
+
+    // preparing for lifting state up
+    props.onSaveExpenseData(expenseData);
+
     setEnteredTitle('');
     setEnteredDate('');
     setEnteredAmount('');
