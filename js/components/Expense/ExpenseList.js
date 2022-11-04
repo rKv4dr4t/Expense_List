@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './ExpenseList.module.css';
 
 import ExpenseItem from './ExpenseItem';
-import LongChart from './LongChart';
+import LongChart from '../Chart/LongChart';
 
 const ExpenseList = (props) => {
   return (

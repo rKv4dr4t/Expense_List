@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 // import Card from './UI/Card';
-import Button from './UI/Button'
+import Button from '../UI/Button'
 
 import styles from './AddExpense.module.css'
 

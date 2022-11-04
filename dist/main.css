@@ -469,10 +469,10 @@ body {
   outline: none;
 }
 
-/*!***************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/AddExpense.module.css ***!
-  \***************************************************************************************/
-.VMxzDGXCk7Znd9dwoECA {
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/AddExpense.module.css ***!
+  \***********************************************************************************************/
+.JuZoDQaLE_BxYFps5Pgk {
   margin: 2rem auto;
   padding: 1rem 1rem 2.5rem 1rem;
   width: 90%;
@@ -481,85 +481,85 @@ body {
   border-radius: 10px 10px 0px 0px;
 }
 
-.VMxzDGXCk7Znd9dwoECA label {
+.JuZoDQaLE_BxYFps5Pgk label {
   display: block;
   padding: 0 0 0.3125rem 0.625rem;
   color: var(--light-element);
 }
 
-.VMxzDGXCk7Znd9dwoECA input {
+.JuZoDQaLE_BxYFps5Pgk input {
   border-radius: 10px;
   border-style: none;
   padding: 7px 8px 4px 8px;
   color: var(--light-element);
 }
 
-.VMxzDGXCk7Znd9dwoECA input:focus {
+.JuZoDQaLE_BxYFps5Pgk input:focus {
   outline: 2px solid var(--light-element);
 }
 
-.VMxzDGXCk7Znd9dwoECA input::selection {
+.JuZoDQaLE_BxYFps5Pgk input::selection {
   background-color: var(--light-element);
   color: white;
 }
 
 /* single div that contains an input and a label */
-.T0ChpWo3tUE07BzeF6CB {
+.LLCFCj6ic7UicKetZR39 {
   display: inline-block;
   padding: 0 0.625rem;
 }
 
-.IaSiHUD9kmBJ3ABJGzj7 {
+.F5agc9n8BKZWyGJJM5Wu {
   width: var(--shorter-input);
 }
 
-.pDgE97aoSIadyYzNeNX3 {
+.XXtz2lES6IkN_58Rlznw {
   width: var(--longer-input);
   display: block;
 }
 
-#CuRt1HQZhmtwjK4xyhSO {
+#dR4t1aqAeaxn_lpt6XSN {
   display: none;
 }
 
 /* single div that contains buttons field */
-.rJjXescbtxAh4EEgB_nU {
+.exwqotaS9dvWLQVc_xNJ {
   text-align: right;
 }
 
-#WpIikX3gJlvxCl222Zpw {
+#e8E8i13M5iqRxzMY_ij3 {
     display: inline-block;
 }
 
 /* --- */
 /* Mobile screen */
 @media screen and (max-width: 636px) {
-  .T0ChpWo3tUE07BzeF6CB {
+  .LLCFCj6ic7UicKetZR39 {
     padding: 0;
   }
 
-  .VMxzDGXCk7Znd9dwoECA input {
+  .JuZoDQaLE_BxYFps5Pgk input {
     box-sizing: border-box;   
     padding: 7px 8px 4px 8px;
   }
 
-  #hLTXwmD7seVPrhV17WuN {
+  #vdFwNspA789fYTULjqmS {
     margin-bottom: 1rem;
     display: block;
     width: 100%;
   }
 
-  #CuRt1HQZhmtwjK4xyhSO {
+  #dR4t1aqAeaxn_lpt6XSN {
     width: 4%;
   }
 
-  #BR3idNV2IStDhKQG6y1q {
+  #WtRs1HLe5cnd8n2OU6du {
     float: left;
     width: 48%;
     padding: 0;
     margin: 0;
   }
-  #SX2_isXsoAx6S4c5xRj9 {
+  #dRV_AepQjMCrCqGFJDpH {
     float: right;
     width: 48%;
     padding: 0;
@@ -567,10 +567,10 @@ body {
   }
 }
 
-/*!****************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseList.module.css ***!
-  \****************************************************************************************/
-.Gtz3JRHVGBYabo7tM8t6 {
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseList.module.css ***!
+  \************************************************************************************************/
+.Lqxxxyn_YrZ9fDboTe14 {
   background-color: var(--purple-background);
   margin: -3.1rem auto;
   padding: 1rem 1rem 1rem 1rem;
@@ -579,11 +579,11 @@ body {
   border-radius: 10px;
 }
 
-.Gtz3JRHVGBYabo7tM8t6 ul {
+.Lqxxxyn_YrZ9fDboTe14 ul {
   list-style-type: none;
 }
 
-.w6xsFNRrQSYW9XAqBlT0 {
+.BLAB74H8pqsSqv5PITT1 {
   float: right;
   margin-left: auto;
   margin-top: 0.5rem;
@@ -595,21 +595,21 @@ body {
   background-color: white;
 }
 
-.w6xsFNRrQSYW9XAqBlT0 option {
+.BLAB74H8pqsSqv5PITT1 option {
   padding: 1rem;
 }
 
-.w6xsFNRrQSYW9XAqBlT0:active, .w6xsFNRrQSYW9XAqBlT0:focus {
+.BLAB74H8pqsSqv5PITT1:active, .BLAB74H8pqsSqv5PITT1:focus {
   outline: none;
 }
 
-.w6xsFNRrQSYW9XAqBlT0:hover {
+.BLAB74H8pqsSqv5PITT1:hover {
   cursor: pointer;
 }
-/*!****************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseDate.module.css ***!
-  \****************************************************************************************/
-.pO1BU95gQ0vioHRgbl8J {
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseDate.module.css ***!
+  \************************************************************************************************/
+.ETMNDFsmznyhbIBe1QeA {
     background-color: var(--light-element);
     margin-right: 1.5rem;
     padding: 1rem;
@@ -626,19 +626,19 @@ body {
     background-color: var(--dark-element);
     border-radius: 1.5rem;
 }
-/*!****************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/ExpenseItem.module.css ***!
-  \****************************************************************************************/
-.fGtu9Umh1eM42Cx6S38r:first-child {
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseItem.module.css ***!
+  \************************************************************************************************/
+.HC6i2K9O4bbtz7gINnXi:first-child {
   margin-top: 2rem;
 }
 
-.fGtu9Umh1eM42Cx6S38r:not(.fGtu9Umh1eM42Cx6S38r:last-child) {
+.HC6i2K9O4bbtz7gINnXi:not(.HC6i2K9O4bbtz7gINnXi:last-child) {
   margin-bottom: 1rem;
   padding: 0;
 }
 
-.s4a43SYgamSIrUqxfrD0 {
+.cRDk9Zpd7EL_nbT2xjPD {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,14 +649,14 @@ body {
   margin-left: -2.5rem;
 }
 
-.qiFcyz3SGEzbNv5MA4Cb {
+.awmqG5fuxSsZoVSrqsGO {
   margin-left: auto;
   margin-right: 2rem;
 }
-/*!**************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/LongChart.module.css ***!
-  \**************************************************************************************/
-.dsPCd8vqIDxvjhZU9S2c {
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Chart/LongChart.module.css ***!
+  \********************************************************************************************/
+.X6FRZamKBHV9lZh2bAOq {
   width: 100%;
   height: 1.25rem;
   display: -webkit-box;
@@ -666,7 +666,7 @@ body {
   flex-wrap: wrap;
 }
 
-.DZTIu0oIQvnu30y3hPEH {
+.xBu9vqznFkCIkjNGUDqA {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -675,14 +675,14 @@ body {
   flex-wrap: wrap;
   margin-top: 4rem;
 }
-/*!*******************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/MonthNameChart.module.css ***!
-  \*******************************************************************************************/
-.KCYJKhI7HaGYcf2KexDV {
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Chart/MonthNameChart.module.css ***!
+  \*************************************************************************************************/
+.zPMKvolmVGdjVqfdOhNw {
     margin-bottom: 0.5rem;
 }
 
-.Jos0BrJKmvdctV1q5GLk {
+.ESBxRoBWD0Qg9MFJi2nI {
     width: 13px;
     height: 13px;
     display: inline-block;
@@ -690,15 +690,15 @@ body {
     outline: 2px solid var(--dark-element);
 }
 
-.OmNLKrTq2TiueTKE0O6g {
+.W7nsfkYXh0B25TkDKEMw {
     color: var(--pink-background);
     display: inline-block;
     padding-left: 0.5rem;
 }
-/*!******************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/MonthBarChart.module.css ***!
-  \******************************************************************************************/
-.K9pTDdc5uj0gRLw8rE5l {
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Chart/MonthBarChart.module.css ***!
+  \************************************************************************************************/
+.lDkhCKooJ3dC6dTWIi2B {
   width: 100%;
   height: 1.25rem;
   background-color: var(--first-gradient);
@@ -707,12 +707,12 @@ body {
   /* border-radius: 10px; */
 }
 
-.K9pTDdc5uj0gRLw8rE5l:last-child {
+.lDkhCKooJ3dC6dTWIi2B:last-child {
   /* margin-left: -0.9rem; */
   border-radius: 0px 15px 15px 0px;
 }
 
-.K9pTDdc5uj0gRLw8rE5l:first-child {
+.lDkhCKooJ3dC6dTWIi2B:first-child {
   border-radius: 15px 0 0 15px;
 }
 

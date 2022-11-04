@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ExpenseDate from './ExpenseDate'
-import ItemCard from './UI/ItemCard'
+import ItemCard from '../UI/ItemCard'
 
 import styles from './ExpenseItem.module.css'
 
