@@ -1,8 +1,17 @@
 .longChart {
-    width: 100%;
-    height: 1.25rem;
-    background-color: var(--first-gradient);
-    border: 2px solid var(--dark-element);
-    margin-top: 0.2rem;
-    border-radius: 10px;
-  }
+  width: 100%;
+  height: 1.25rem;
+  background-color: var(--first-gradient);
+  outline: 2px solid var(--dark-element);
+  margin-top: 0.2rem;
+  /* border-radius: 10px; */
+}
+
+.longChart:last-child {
+  /* margin-left: -0.9rem; */
+  border-radius: 0px 15px 15px 0px;
+}
+
+.longChart:first-child {
+  border-radius: 15px 0 0 15px;
+}

@@ -666,9 +666,13 @@ body {
   flex-wrap: wrap;
 }
 
-.VB1FuYHqWgYwYBEgIQ_q {
+/* .contContainerBarChart {
+  margin: auto;
+} */
+
+/* .containerMonthBarChart {
   width: inherit;
-}
+} */
 
 .DZTIu0oIQvnu30y3hPEH {
   width: 100%;
@@ -713,10 +717,20 @@ body {
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/MonthBarChart.module.css ***!
   \******************************************************************************************/
 .K9pTDdc5uj0gRLw8rE5l {
-    width: 100%;
-    height: 1.25rem;
-    background-color: var(--first-gradient);
-    border: 2px solid var(--dark-element);
-    margin-top: 0.2rem;
-    border-radius: 10px;
-  }
+  width: 100%;
+  height: 1.25rem;
+  background-color: var(--first-gradient);
+  outline: 2px solid var(--dark-element);
+  margin-top: 0.2rem;
+  /* border-radius: 10px; */
+}
+
+.K9pTDdc5uj0gRLw8rE5l:last-child {
+  /* margin-left: -0.9rem; */
+  border-radius: 0px 15px 15px 0px;
+}
+
+.K9pTDdc5uj0gRLw8rE5l:first-child {
+  border-radius: 15px 0 0 15px;
+}
+

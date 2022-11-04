@@ -89,17 +89,18 @@ const LongChart = (props) => {
           )
         })}
       </div>
-      <div className={styles.containerBarChart}>
-        {notDuplicated.map((dateMonth, index) => {
-          return (
-            <div key={Math.random()} className={styles.containerMonthBarChart}>
+      <div className={styles.contContainerBarChart} > 
+        <div className={styles.containerBarChart}>
+          {notDuplicated.map((dateMonth, index) => {
+            return (
               <MonthBarChart
+                key={Math.random()}
                 colorMonth={colorChanger(dateMonth)}
                 percentageMonth={percentageCalc(dateMonth.date.getMonth())}
               />
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     </div>
   )

@@ -8,9 +8,13 @@
   flex-wrap: wrap;
 }
 
-.containerMonthBarChart {
+/* .contContainerBarChart {
+  margin: auto;
+} */
+
+/* .containerMonthBarChart {
   width: inherit;
-}
+} */
 
 .monthsContainer {
   width: 100%;
