@@ -47,6 +47,7 @@ const LongChart = (props) => {
       return `var(--third-gradient)`
     } else if (dateMonth.date.getMonth() == 3) {
       // April
+      return `var(--fourth-gradient)`
     } else if (dateMonth.date.getMonth() == 4) {
       // May
       return `var(--fifth-gradient)`

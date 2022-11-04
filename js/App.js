@@ -7,7 +7,7 @@ import ExpenseList from './components/ExpenseList'
 
 const DUMMY_EXPENSES = [
   {
-    id: 'e1',
+    id: 'e10',
     title: 'Banana hat',
     amount: 94.12,
     date: new Date(2022, 11, 14),
