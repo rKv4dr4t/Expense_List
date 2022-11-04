@@ -7,7 +7,7 @@ const MonthNameChart = (props) => {
   return (
     <div className={styles.itemChart}>
       <div className={styles.squareItem} style={{backgroundColor: props.colorMonth}}></div>
-      <div className={styles.titleItem}>{month}</div>
+      <div className={styles.titleItem}>{month.slice(0, 3)}</div>
     </div>
   )
 }
