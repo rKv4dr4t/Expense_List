@@ -1,7 +1,9 @@
 import React from 'react'
 
 const NewExpense = (props) => {
-  return <div>{props.test}</div>
+
+
+  return <div></div>
 }
 
 export default NewExpense

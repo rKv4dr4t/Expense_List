@@ -1,0 +1,2 @@
+- rimuovere la doppia cifra nella data quando è minore di 10
+- riordinare i mesi quando vengono inserite nuove entry

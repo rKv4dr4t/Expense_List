@@ -41,25 +41,25 @@ DUMMY_EXPENSES.sort(function (a, b) {
 const App = (props) => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
 
-  const addExpenseHandler = (expense) => {
-    setExpenses((prevExpenses) => {
-      return [expense, ...prevExpenses]
-    })
-  }
-
   // receiving data from child
   const receiveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
       id: Math.random().toString(),
     }
-    // console.log(expenseData)
+
+    // while the data is receiving, updating the state, so there is a new entry
+    setExpenses((prevExpenses) => {
+      return [enteredExpenseData, ...prevExpenses]
+    })
+    console.log(expenseData)
   }
+
 
   return (
     <div>
       <AddExpense onSaveExpenseData={receiveExpenseDataHandler} />
-      <NewExpense />
+      {/* <NewExpense /> */}
       <ExpenseList items={expenses} />
     </div>
   )

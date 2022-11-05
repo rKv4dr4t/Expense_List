@@ -27,9 +27,9 @@ const AddExpense = (props) => {
     const expenseData = {
       title: enteredTitle,
       date: new Date(enteredDate),
-      amount: enteredAmount
+      amount: enteredAmount,
+      id: Math.random().toString()
     }
-    // console.log(expenseData)
 
     // preparing for lifting state up
     props.onSaveExpenseData(expenseData);
