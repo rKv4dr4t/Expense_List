@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import styles from './ExpenseList.module.css';
+import styles from './ExpenseList.module.css'
 
-import ExpenseItem from './ExpenseItem';
-import LongChart from '../Chart/LongChart';
+import ExpenseItem from './ExpenseItem'
+import LongChart from '../Chart/LongChart'
 
 const ExpenseList = (props) => {
   return (
@@ -14,10 +14,7 @@ const ExpenseList = (props) => {
         <option>2020</option>
       </select>
 
-
-      <LongChart monthItems={props.items}/>
- 
-
+      <LongChart monthItems={props.items} />
 
       <ul>
         {props.items.map((expense) => (

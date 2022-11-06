@@ -4,7 +4,7 @@ import styles from './ExpenseDate.module.css'
 
 const ExpenseDate = (props) => {
   const month = props.date.toLocaleString('en-US', { month: 'long' })
-  const day = props.date.toLocaleString('en-US', { day: '2-digit' })
+  const day = props.date.getDate()
 
   return (
     <div className={styles.date}>

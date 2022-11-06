@@ -1,2 +1,8 @@
-- rimuovere la doppia cifra nella data quando è minore di 10
-- riordinare i mesi quando vengono inserite nuove entry
+- error modal per:
+    - amount inferiore a zero
+    - amount non inserito
+    - title non inserito
+    - date non inserito
+    - valori multipli non inseriti
+- filtro anno
+- eliminazione item
