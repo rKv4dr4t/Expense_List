@@ -16,13 +16,13 @@ const DUMMY_EXPENSES = [
     id: 'e2',
     title: 'Screaming mango',
     amount: 128,
-    date: new Date(new Date().getFullYear(), 9, 14),
+    date: new Date(new Date().getFullYear(), 10, 3),
   },
   {
     id: 'e3',
-    title: 'Blue tomato',
+    title: 'Tomacco',
     amount: 29.49,
-    date: new Date(new Date().getFullYear(), 9, 28),
+    date: new Date(new Date().getFullYear(), 10, 7),
   },
   {
     id: 'e4',
