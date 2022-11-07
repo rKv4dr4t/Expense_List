@@ -16,22 +16,14 @@ const ExpenseList = (props) => {
     return expense.date.getFullYear().toString() === filteredYear
   })
 
-
-
   return (
     <div className={styles.expense}>
-      {/* <select className={styles.year}>
-        <option>2022</option>
-        <option>2021</option>
-        <option>2020</option>
-      </select> */}
-
       <ExpensesFilter
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
       />
 
-      <LongChart monthItems={props.items} />
+      <LongChart monthItems={filteredExpenses} />
 
       {/* {props.items.map((expense) => ( */}
       <ul>

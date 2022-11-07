@@ -5,7 +5,7 @@ import styles from './MonthBarChart.module.css'
 const MonthBarChart = (props) => {
   return (
     <div
-      className={styles.longChart}
+    className = {`${props.onlyChild ? styles.onlyChild : styles.longChart}`}
       style={{
         backgroundColor: props.colorMonth,
         width: props.percentageMonth,

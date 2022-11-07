@@ -20,6 +20,14 @@ const LongChart = (props) => {
       return acc
     }
   }, [])
+  
+  // detect if is an only child (for month bar rounded borders)
+  let onlyChild
+  if (notDuplicated.length == 1) {
+    onlyChild = true;
+  } else {
+    onlyChild = false;
+  }
 
   // count duplicates
   data.forEach(function (x) {
@@ -98,6 +106,7 @@ const LongChart = (props) => {
                 key={Math.random()}
                 colorMonth={colorChanger(dateMonth)}
                 percentageMonth={percentageCalc(dateMonth.date.getMonth())}
+                onlyChild={onlyChild}
               />
             )
           })}

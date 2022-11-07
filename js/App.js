@@ -10,21 +10,35 @@ const DUMMY_EXPENSES = [
     id: 'e10',
     title: 'Banana hat',
     amount: 12.99,
-    date: new Date(2021, 7, 23),
+    date: new Date(new Date().getFullYear(), 7, 23),
   },
   {
     id: 'e2',
-    title: 'Huge watermelon',
+    title: 'Screaming mango',
     amount: 128,
-    date: new Date(2022, 11, 14),
+    date: new Date(new Date().getFullYear(), 9, 14),
   },
   {
     id: 'e3',
-    title: 'Peanut hoodie',
+    title: 'Blue tomato',
     amount: 29.49,
-    date: new Date(2022, 11, 28),
+    date: new Date(new Date().getFullYear(), 9, 28),
   },
+  {
+    id: 'e4',
+    title: 'Radioactive kiwi',
+    amount: 9.89,
+    date: new Date(new Date().getFullYear() - 1, 3, 12),
+  },
+  {
+    id: 'e5',
+    title: 'Talking egg',
+    amount: 788,
+    date: new Date(new Date().getFullYear() - 1, 7, 25),
+  }
 ]
+
+console.log()
 
 const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
@@ -37,10 +51,9 @@ const App = () => {
     })
   }
 
-
   // alphabetical sorting by month name
   expenses.sort(function (a, b) {
-    return a.date.getMonth() - b.date.getMonth()
+    return new Date(a.date) - new Date(b.date)
   })
 
   return (

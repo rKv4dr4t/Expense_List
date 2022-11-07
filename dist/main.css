@@ -675,17 +675,24 @@ body {
 /*!************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Chart/MonthBarChart.module.css ***!
   \************************************************************************************************/
+.BZfgu0gL6EMCWaAjeNl5 {
+  width: 100%;
+  height: 1.25rem;
+  background-color: var(--first-gradient);
+  outline: 2px solid var(--dark-element);
+  margin-top: 0.2rem;
+  border-radius: 15px;
+}
+
 .lDkhCKooJ3dC6dTWIi2B {
   width: 100%;
   height: 1.25rem;
   background-color: var(--first-gradient);
   outline: 2px solid var(--dark-element);
   margin-top: 0.2rem;
-  /* border-radius: 10px; */
 }
 
 .lDkhCKooJ3dC6dTWIi2B:last-child {
-  /* margin-left: -0.9rem; */
   border-radius: 0px 15px 15px 0px;
 }
 
