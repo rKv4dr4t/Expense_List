@@ -32,7 +32,7 @@ const DUMMY_EXPENSES = [
   },
   {
     id: 'e5',
-    title: 'Talking egg',
+    title: 'Disappointing egg',
     amount: 788,
     date: new Date(new Date().getFullYear() - 1, 7, 25),
   }
