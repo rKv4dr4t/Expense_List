@@ -583,29 +583,6 @@ body {
   list-style-type: none;
 }
 
-.BLAB74H8pqsSqv5PITT1 {
-  float: right;
-  margin-left: auto;
-  margin-top: 0.5rem;
-  border: none;
-  border-radius: 10px;
-  padding: 0.5rem;
-  width: 100px;
-  color: var(--light-element);
-  background-color: white;
-}
-
-.BLAB74H8pqsSqv5PITT1 option {
-  padding: 1rem;
-}
-
-.BLAB74H8pqsSqv5PITT1:active, .BLAB74H8pqsSqv5PITT1:focus {
-  outline: none;
-}
-
-.BLAB74H8pqsSqv5PITT1:hover {
-  cursor: pointer;
-}
 /*!************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseDate.module.css ***!
   \************************************************************************************************/
@@ -716,3 +693,29 @@ body {
   border-radius: 15px 0 0 15px;
 }
 
+/*!**************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseFilter.module.css ***!
+  \**************************************************************************************************/
+.l5KmAZpKyAewrDbJEYIu {
+    float: right;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 100px;
+    color: var(--light-element);
+    background-color: white;
+  }
+  
+  .l5KmAZpKyAewrDbJEYIu option {
+    padding: 1rem;
+  }
+  
+  .l5KmAZpKyAewrDbJEYIu:active, .l5KmAZpKyAewrDbJEYIu:focus {
+    outline: none;
+  }
+  
+  .l5KmAZpKyAewrDbJEYIu:hover {
+    cursor: pointer;
+  }
