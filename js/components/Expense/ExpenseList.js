@@ -21,6 +21,7 @@ const ExpenseList = (props) => {
       <ExpensesFilter
         selected={filteredYear}
         onChangeFilter={filterChangeHandler}
+        items={props.items}
       />
 
       <LongChart monthItems={filteredExpenses} />
