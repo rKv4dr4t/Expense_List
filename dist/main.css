@@ -427,7 +427,8 @@ body {
   border: 2px solid var(--light-element);
   background: var(--light-element);
   border-radius: 0.625rem;
-  color: var(--pink-background);
+  color: white;
+  /* color: var(--pink-background); */
   padding: 0.3rem 1.3rem 0.3rem 1.3rem;
   cursor: pointer;
 }
@@ -469,6 +470,67 @@ body {
   outline: none;
 }
 
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/Card.module.css ***!
+  \************************************************************************************/
+.KAxiHfk6sFfr82bGrZBm {
+    background: var(--pink-background);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/ErrorModal.module.css ***!
+  \******************************************************************************************/
+.nXcPCOiLzSHPNkKXSg1t {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .Nw_XvBCHBCDMjZqU_ATw {
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .f6lIpqBXrJNc_4VNFHLF {
+    background-color: var(--dark-element);
+    padding: 1rem;
+  }
+  
+  .f6lIpqBXrJNc_4VNFHLF h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .Ps7LdC6Y_K5h8dFcAh1w {
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .LvNQR8Yv2FPkm_qNvcnG {
+    padding: 0 1rem 1rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  @media (min-width: 768px) {
+    .Nw_XvBCHBCDMjZqU_ATw {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }
 /*!***********************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/AddExpense.module.css ***!
   \***********************************************************************************************/

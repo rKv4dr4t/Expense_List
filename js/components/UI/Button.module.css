@@ -6,7 +6,8 @@
   border: 2px solid var(--light-element);
   background: var(--light-element);
   border-radius: 0.625rem;
-  color: var(--pink-background);
+  color: white;
+  /* color: var(--pink-background); */
   padding: 0.3rem 1.3rem 0.3rem 1.3rem;
   cursor: pointer;
 }

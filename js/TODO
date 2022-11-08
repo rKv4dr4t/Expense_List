@@ -1,6 +1,0 @@
-- error modal per:
-    - amount inferiore a zero
-    - amount non inserito
-    - title non inserito
-    - date non inserito
-    - valori multipli non inseriti
