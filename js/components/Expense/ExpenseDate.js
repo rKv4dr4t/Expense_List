@@ -8,7 +8,7 @@ const ExpenseDate = (props) => {
 
   return (
     <div className={styles.date}>
-      {day} {month}
+      {day} {month.slice(0,3)}
     </div>
   )
 }

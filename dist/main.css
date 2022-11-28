@@ -658,6 +658,14 @@ body {
     text-align: center;
 }
 
+@media only screen and (max-width: 480px) {
+    .ETMNDFsmznyhbIBe1QeA {
+        width: 3.5rem;
+        min-width: 3.5rem;
+        margin-right: 1rem;
+    }
+  }
+
 /*!****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/UI/ItemCard.module.css ***!
   \****************************************************************************************/
@@ -688,9 +696,16 @@ body {
   margin-left: -2.5rem;
 }
 
+.T4YdjP1exrBwcjtSnZPF {
+  max-height: 35px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+
 .awmqG5fuxSsZoVSrqsGO {
   margin-left: auto;
   margin-right: 2rem;
+  white-space: nowrap;
 }
 /*!********************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Chart/LongChart.module.css ***!

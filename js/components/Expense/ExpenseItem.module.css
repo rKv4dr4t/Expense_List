@@ -18,7 +18,14 @@
   margin-left: -2.5rem;
 }
 
+.expenseItem-title {
+  max-height: 35px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+
 .expenseItem-amount {
   margin-left: auto;
   margin-right: 2rem;
+  white-space: nowrap;
 }
