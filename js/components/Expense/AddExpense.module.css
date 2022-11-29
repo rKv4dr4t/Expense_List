@@ -92,7 +92,7 @@
     margin: 0;
   }
 
-  #inputDate::-webkit-datetime-edit {
+  #date::-webkit-datetime-edit {
     display: block;
     padding: 0;
   }
