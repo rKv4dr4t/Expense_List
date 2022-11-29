@@ -98,7 +98,7 @@ const AddExpense = (props) => {
           <div className={styles.inputContainer} id={styles.inputDate}>
             <label>Date</label>
             <input
-              id={styles.date}
+              id="date"
               type="date"
               className={styles.shorterInput}
               value={enteredDate}
