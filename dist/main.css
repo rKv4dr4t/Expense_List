@@ -578,6 +578,9 @@ body {
 
 .F5agc9n8BKZWyGJJM5Wu {
   width: var(--shorter-input);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none
 }
 
 .XXtz2lES6IkN_58Rlznw {
