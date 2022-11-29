@@ -578,11 +578,12 @@ body {
 
 .F5agc9n8BKZWyGJJM5Wu {
   width: var(--shorter-input);
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield;
      -moz-appearance: textfield;
           appearance: textfield;
   display: block;
-  min-height: 1.2em;
+  min-height: 1.2em; */
+  background-color: white;
 }
 
 .XXtz2lES6IkN_58Rlznw {
