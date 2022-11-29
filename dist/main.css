@@ -578,9 +578,10 @@ body {
 
 .F5agc9n8BKZWyGJJM5Wu {
   width: var(--shorter-input);
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  display: block;
 }
 
 .XXtz2lES6IkN_58Rlznw {

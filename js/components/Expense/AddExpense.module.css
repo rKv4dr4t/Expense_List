@@ -42,9 +42,10 @@
 
 .shorterInput {
   width: var(--shorter-input);
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  display: block;
 }
 
 .longerInput {
