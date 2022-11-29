@@ -758,9 +758,7 @@ body {
   background-color: var(--first-gradient);
   outline: 2px solid var(--dark-element);
   margin-top: 0.2rem;
-  border-radius: 15px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0)
+  /* border-radius: 15px; */
 }
 
 .lDkhCKooJ3dC6dTWIi2B {
@@ -771,17 +769,13 @@ body {
   margin-top: 0.2rem;
 }
 
-.lDkhCKooJ3dC6dTWIi2B:last-child {
+/* .longChart:last-child {
   border-radius: 0px 15px 15px 0px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0)
 }
 
-.lDkhCKooJ3dC6dTWIi2B:first-child {
+.longChart:first-child {
   border-radius: 15px 0 0 15px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0)
-}
+} */
 
 /*!**************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseFilter.module.css ***!
