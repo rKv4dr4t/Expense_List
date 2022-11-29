@@ -38,6 +38,7 @@
 .inputContainer {
   display: inline-block;
   padding: 0 0.625rem;
+  margin-top: 0;
 }
 
 .shorterInput {
@@ -47,7 +48,6 @@
           appearance: textfield;
   /* display: block; 
   min-height: 1.2em; */
-  display: block;
   background-color: white;
 }
 

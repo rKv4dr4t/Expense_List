@@ -574,6 +574,7 @@ body {
 .LLCFCj6ic7UicKetZR39 {
   display: inline-block;
   padding: 0 0.625rem;
+  margin-top: 0;
 }
 
 .F5agc9n8BKZWyGJJM5Wu {
@@ -583,7 +584,6 @@ body {
           appearance: textfield;
   /* display: block; 
   min-height: 1.2em; */
-  display: block;
   background-color: white;
 }
 
