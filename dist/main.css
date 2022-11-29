@@ -582,6 +582,7 @@ body {
      -moz-appearance: textfield;
           appearance: textfield;
   display: block;
+  min-height: 1.2em;
 }
 
 .XXtz2lES6IkN_58Rlznw {

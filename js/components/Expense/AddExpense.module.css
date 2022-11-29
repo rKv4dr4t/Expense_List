@@ -46,6 +46,7 @@
      -moz-appearance: textfield;
           appearance: textfield;
   display: block;
+  min-height: 1.2em;
 }
 
 .longerInput {
