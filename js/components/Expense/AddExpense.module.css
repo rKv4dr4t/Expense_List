@@ -24,6 +24,11 @@
   outline: 2px solid var(--light-element);
 }
 
+.input input::-moz-selection {
+  background-color: var(--light-element);
+  color: white;
+}
+
 .input input::selection {
   background-color: var(--light-element);
   color: white;
@@ -65,7 +70,8 @@
   }
 
   .input input {
-    box-sizing: border-box;   
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;   
     padding: 7px 8px 4px 8px;
   }
 
@@ -84,6 +90,7 @@
     width: 48%;
     padding: 0;
     margin: 0;
+    display: block
   }
   #inputAmount {
     float: right;
