@@ -598,9 +598,9 @@ body {
   display: block;
 }
 
-/* #space {
+#dR4t1aqAeaxn_lpt6XSN {
   display: none;
-} */
+}
 
 /* single div that contains buttons field */
 .exwqotaS9dvWLQVc_xNJ {
@@ -626,9 +626,9 @@ input::-webkit-datetime-edit {
       /* -webkit-column-gap: 20px;
          -moz-column-gap: 20px;
               column-gap: 20px; */
-              -webkit-column-gap: 4%;
+              /* -webkit-column-gap: 4%;
                  -moz-column-gap: 4%;
-                      column-gap: 4%;
+                      column-gap: 4%; */
 }
 
   .LLCFCj6ic7UicKetZR39 {
@@ -648,6 +648,7 @@ input::-webkit-datetime-edit {
   }
 
   #dR4t1aqAeaxn_lpt6XSN {
+    display: block;
      width: 4%;
   }
 

@@ -62,9 +62,9 @@
   display: block;
 }
 
-/* #space {
+#space {
   display: none;
-} */
+}
 
 /* single div that contains buttons field */
 .buttonContainer {
@@ -90,9 +90,9 @@ input::-webkit-datetime-edit {
       /* -webkit-column-gap: 20px;
          -moz-column-gap: 20px;
               column-gap: 20px; */
-              -webkit-column-gap: 4%;
+              /* -webkit-column-gap: 4%;
                  -moz-column-gap: 4%;
-                      column-gap: 4%;
+                      column-gap: 4%; */
 }
 
   .inputContainer {
@@ -112,6 +112,7 @@ input::-webkit-datetime-edit {
   }
 
   #space {
+    display: block;
      width: 4%;
   }
 
