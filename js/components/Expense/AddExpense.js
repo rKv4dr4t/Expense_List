@@ -124,7 +124,7 @@ const AddExpense = (props) => {
                 CANCEL
               </Button>
               <Button type="submit" theme="regularButton">
-                ADD EXPENSE
+                ADD 
               </Button>
             </div>
           </div>
