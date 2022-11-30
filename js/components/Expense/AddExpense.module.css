@@ -34,9 +34,16 @@
   color: white;
 }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* single div that contains an input and a label */
 .inputContainer {
-  display: inline-block;
+  display: block;
+  /* display: inline-block; */
   padding: 0 0.625rem;
 }
 

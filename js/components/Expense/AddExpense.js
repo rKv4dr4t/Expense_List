@@ -85,36 +85,38 @@ const AddExpense = (props) => {
       )}
       <div className={styles.input}>
         <form onSubmit={submitHandler} onReset={resetHandler}>
-          <div className={styles.inputContainer} id={styles.inputTitle}>
-            <label>Title</label>
-            <input
-              id="title"
-              type="text"
-              className={styles.longerInput}
-              value={enteredTitle}
-              onChange={titleHandler}
-            ></input>
-          </div>
-          <div className={styles.inputContainer} id={styles.inputDate}>
-            <label>Date</label>
-            <input
-              id="date"
-              type="date"
-              className={styles.shorterInput}
-              value={enteredDate}
-              onChange={dateHandler}
-            ></input>
-          </div>
-          <div className={styles.inputContainer} id={styles.space}></div>
-          <div className={styles.inputContainer} id={styles.inputAmount}>
-            <label>Amount</label>
-            <input
-              id="amount"
-              type="number"
-              className={styles.shorterInput}
-              value={enteredAmount}
-              onChange={amountHandler}
-            ></input>
+          <div className={styles.container}>
+            <div className={styles.inputContainer} id={styles.inputTitle}>
+              <label>Title</label>
+              <input
+                id="title"
+                type="text"
+                className={styles.longerInput}
+                value={enteredTitle}
+                onChange={titleHandler}
+              ></input>
+            </div>
+            <div className={styles.inputContainer} id={styles.inputDate}>
+              <label>Date</label>
+              <input
+                id="date"
+                type="date"
+                className={styles.shorterInput}
+                value={enteredDate}
+                onChange={dateHandler}
+              ></input>
+            </div>
+            <div className={styles.inputContainer} id={styles.space}></div>
+            <div className={styles.inputContainer} id={styles.inputAmount}>
+              <label>Amount</label>
+              <input
+                id="amount"
+                type="number"
+                className={styles.shorterInput}
+                value={enteredAmount}
+                onChange={amountHandler}
+              ></input>
+            </div>
           </div>
           <div className={styles.buttonContainer}>
             <div id={styles.innerButtonContainer}>
