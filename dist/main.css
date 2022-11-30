@@ -586,6 +586,7 @@ body {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  min-height: 1.2em;
   background-color: white;
 }
 
