@@ -34,13 +34,6 @@
   color: white;
 }
 
-input[type=date] {
-  display:block;
-  -webkit-appearance:button;
-  -moz-appearance:button;
-  appearance:button;
-}
-
 /* single div that contains an input and a label */
 .inputContainer {
   display: inline-block;
