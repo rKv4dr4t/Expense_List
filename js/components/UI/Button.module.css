@@ -1,7 +1,7 @@
 .button {
   margin-top: 1.5rem;
   margin-left: 1rem;
-  width: 10rem;
+  width: 9.375rem;
   font: inherit;
   border: 2px solid var(--light-element);
   background: var(--light-element);

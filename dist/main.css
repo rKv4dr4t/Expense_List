@@ -422,7 +422,7 @@ body {
 .hhh7kPm4bMrn8RK3cbSi {
   margin-top: 1.5rem;
   margin-left: 1rem;
-  width: 10rem;
+  width: 9.375rem;
   font: inherit;
   border: 2px solid var(--light-element);
   background: var(--light-element);
@@ -449,7 +449,7 @@ body {
 .A52nW0fOd8i3iaAMla6D {
   margin-top: 1.5rem;
   margin-left: 1rem;
-  width: 150px;
+  width: 9.375rem;
   font: inherit;
   background-color: transparent;;
   border: 2px solid var(--light-element);
@@ -578,18 +578,12 @@ body {
 
 /* single div that contains an input and a label */
 .LLCFCj6ic7UicKetZR39 {
-  /* display: block; */
   /* display: inline-block; */
   padding: 0 0.625rem;
 }
 
 .F5agc9n8BKZWyGJJM5Wu {
   width: var(--shorter-input);
-  /* -webkit-appearance: textfield;
-     -moz-appearance: textfield;
-          appearance: textfield;
-  /* display: block; 
-  min-height: 1.2em; */
   background-color: white;
 }
 
@@ -608,7 +602,7 @@ body {
 }
 
 #e8E8i13M5iqRxzMY_ij3 {
-    display: inline-block;
+  display: inline-block;
 }
 
 input::-webkit-datetime-edit {
@@ -620,16 +614,10 @@ input::-webkit-datetime-edit {
 /* --- */
 /* Mobile screen */
 @media screen and (max-width: 636px) {
-.u4QHut6ieLSJvo2WL65k {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      /* -webkit-column-gap: 20px;
-         -moz-column-gap: 20px;
-              column-gap: 20px; */
-              /* -webkit-column-gap: 4%;
-                 -moz-column-gap: 4%;
-                      column-gap: 4%; */
-}
+  .u4QHut6ieLSJvo2WL65k {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 
   .LLCFCj6ic7UicKetZR39 {
     padding: 0;
@@ -637,7 +625,7 @@ input::-webkit-datetime-edit {
 
   .JuZoDQaLE_BxYFps5Pgk input {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;   
+    box-sizing: border-box;
     padding: 7px 8px 4px 8px;
   }
 
@@ -649,33 +637,21 @@ input::-webkit-datetime-edit {
 
   #dR4t1aqAeaxn_lpt6XSN {
     display: block;
-     width: 4%;
+    width: 4%;
   }
 
   #WtRs1HLe5cnd8n2OU6du {
-    /* float: left;
-    width: 48%; */
-    /* -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1; */
-            width: 48%; 
+    width: 48%;
     padding: 0;
     margin: 0;
   }
 
   #dRV_AepQjMCrCqGFJDpH {
-    /* float: right;
-    width: 48%; */
-    /* -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1; */
-            width: 48%;
+    width: 48%;
     padding: 0;
     margin: 0;
   }
 }
-
-
 
 /*!************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./js/components/Expense/ExpenseList.module.css ***!

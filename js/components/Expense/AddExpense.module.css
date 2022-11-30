@@ -42,18 +42,12 @@
 
 /* single div that contains an input and a label */
 .inputContainer {
-  /* display: block; */
   /* display: inline-block; */
   padding: 0 0.625rem;
 }
 
 .shorterInput {
   width: var(--shorter-input);
-  /* -webkit-appearance: textfield;
-     -moz-appearance: textfield;
-          appearance: textfield;
-  /* display: block; 
-  min-height: 1.2em; */
   background-color: white;
 }
 
@@ -72,7 +66,7 @@
 }
 
 #innerButtonContainer {
-    display: inline-block;
+  display: inline-block;
 }
 
 input::-webkit-datetime-edit {
@@ -84,16 +78,10 @@ input::-webkit-datetime-edit {
 /* --- */
 /* Mobile screen */
 @media screen and (max-width: 636px) {
-.container {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      /* -webkit-column-gap: 20px;
-         -moz-column-gap: 20px;
-              column-gap: 20px; */
-              /* -webkit-column-gap: 4%;
-                 -moz-column-gap: 4%;
-                      column-gap: 4%; */
-}
+  .container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 
   .inputContainer {
     padding: 0;
@@ -101,7 +89,7 @@ input::-webkit-datetime-edit {
 
   .input input {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;   
+    box-sizing: border-box;
     padding: 7px 8px 4px 8px;
   }
 
@@ -113,30 +101,18 @@ input::-webkit-datetime-edit {
 
   #space {
     display: block;
-     width: 4%;
+    width: 4%;
   }
 
   #inputDate {
-    /* float: left;
-    width: 48%; */
-    /* -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1; */
-            width: 48%; 
+    width: 48%;
     padding: 0;
     margin: 0;
   }
 
   #inputAmount {
-    /* float: right;
-    width: 48%; */
-    /* -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1; */
-            width: 48%;
+    width: 48%;
     padding: 0;
     margin: 0;
   }
 }
-
-
